@@ -5,7 +5,7 @@ Work through `tutorial.ipynb` after you finish the setup below.
 ## What you need
 
 - **[Git](https://git-scm.com/)**
-- **[Python 3.10]((https://www.python.org/downloads/)) or newer**
+- **[Python 3.10](https://www.python.org/downloads/) or newer**
 
 ---
 
