@@ -19,7 +19,7 @@ git clone https://github.com/EthanTu2/facialrecognitionbias.git
 cd facialrecognitionbias
 ```
 
-That gives you the full project (including `requirements.txt`, `datasets/`, and `tutorial.ipynb`). Repository: [EthanTu2/facialrecognitionbias](https://github.com/EthanTu2/facialrecognitionbias).
+This downloads the entire project to your local machine.
 
 ### 2. Create a virtual environment (`.venv`)
 
@@ -55,7 +55,7 @@ then try activating again.
 
 ### 4. Upgrade `pip` and install dependencies
 
-Still **with `.venv` active** (prompt shows the venv):
+Still **with `.venv` active** (you should see (venv) at the beginning of your prompt in the command line):
 
 ```bash
 python -m pip install --upgrade pip
@@ -73,7 +73,7 @@ python -m ipykernel install --user --name facialrecognitionbias --display-name "
 - `**facialrecognitionbias**` — kernelspec ID.
 - `**Python (.venv facialrecognitionbias)**` — label you see when choosing a kernel in your Integrated Development Environment (IDE).
 
-`ipykernel install` records the full path to this `.venv`’s Python. If you move or copy the project to another folder (or recreate `.venv`), run the `python -m ipykernel install ...` command again from the new environment so Jupyter still finds the interpreter.
+`ipykernel install` records the full path to this `.venv`’s Python. If you move or copy the project to another folder (or recreate `.venv`), run the `python -m ipykernel install ...` command again from the new environment.
 
 ### 6. Use that kernel when you open `tutorial.ipynb`
 
