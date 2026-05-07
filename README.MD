@@ -5,7 +5,7 @@ Work through `tutorial.ipynb` after you finish the setup below.
 ## What you need
 
 - **[Git](https://git-scm.com/)**
-- **Python 3.10 or newer.** Install from [python.org](https://www.python.org/downloads/) or use [Anaconda](https://www.anaconda.com/) if you prefer a bundle that includes Python and Jupyter tooling.
+- **[Python 3.10]((https://www.python.org/downloads/)) or newer**
 
 ---
 
@@ -55,12 +55,14 @@ then try activating again.
 
 ### 4. Upgrade `pip` and install dependencies
 
-Still **with `.venv` active** (you should see (venv) at the beginning of your prompt in the command line):
+Still **with `.venv` active** (you should see (.venv) at the beginning of your prompt in the command line):
 
 ```bash
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
+
+This downloads all of the libraries you need for this tutorial!
 
 ### 5. Register a Jupyter kernel for this project
 
@@ -70,15 +72,14 @@ Still inside the activated `.venv`, make a kernelspec:
 python -m ipykernel install --user --name facialrecognitionbias --display-name "Python (.venv facialrecognitionbias)"
 ```
 
-- `**facialrecognitionbias**` — kernelspec ID.
-- `**Python (.venv facialrecognitionbias)**` — label you see when choosing a kernel in your Integrated Development Environment (IDE).
+- `facialrecognitionbias`: your kernelspec ID.
+- `Python (.venv facialrecognitionbias)`: the label you see when choosing a kernel.
 
-`ipykernel install` records the full path to this `.venv`’s Python. If you move or copy the project to another folder (or recreate `.venv`), run the `python -m ipykernel install ...` command again from the new environment.
+`ipykernel install` records the full path to this `.venv`’s Python.
 
 ### 6. Use that kernel when you open `tutorial.ipynb`
 
-Confirm that your notebook is tied to `Python (.venv facialrecognitionbias)`.
-
+To confirm that your notebook is connected to `Python (.venv facialrecognitionbias)`, open `tutorial.ipynb` and complete the steps outlined in the table below.
 
 | Where you work | What to click                                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -90,4 +91,4 @@ If `ModuleNotFoundError` appears on imports, you are probably running a differen
 
 ### 7. Run the notebook
 
-That's it! Open `tutorial.ipynb`, check your kernel (step 6), then run cells from top to bottom.
+That's it, you can now begin `tutorial.ipynb`!
