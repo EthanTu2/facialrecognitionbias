@@ -2,3 +2,4 @@ FairFace/
 .DS_Store
 venv
 old
+__pycache__/
