@@ -1,4 +1,4 @@
-# Facial recognition & algorithmic bias
+# Facial Recognition & Algorithmic Bias
 
 Work through `tutorial.ipynb` after you finish the setup below.
 
